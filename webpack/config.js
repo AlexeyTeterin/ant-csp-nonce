@@ -8,7 +8,10 @@ module.exports = {
 		historyApiFallback: true,
 		host: 'localhost',
 		open: true,
-		port: 6000,
+		static: {
+			directory: buildPath,
+			publicPath: 'auto',
+		},
 	},
 	devtool: 'source-map',
 	mode: isProdEnv ? 'production' : 'development',

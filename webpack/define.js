@@ -5,7 +5,7 @@ const isDevEnv = environment === 'development';
 const isProdEnv = environment === 'production';
 const src = resolve(__dirname, '../src');
 
-const buildPath = resolve('./build/dist');
+const buildPath = resolve('./build');
 
 module.exports = {
 	buildPath,

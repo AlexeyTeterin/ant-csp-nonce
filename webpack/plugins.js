@@ -10,7 +10,6 @@ module.exports = [
 		},
 	}),
 	new HtmlWebpackPlugin({
-		filename: '../index.html',
 		meta: {version},
 		template: './src/index.html',
 	}),
