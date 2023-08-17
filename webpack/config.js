@@ -5,8 +5,8 @@ const resolve = require('./resolve');
 
 module.exports = {
 	devServer: {
+		allowedHosts: 'all',
 		historyApiFallback: true,
-		host: 'localhost',
 		open: true,
 		static: {
 			directory: buildPath,
